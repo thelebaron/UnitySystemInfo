@@ -64,6 +64,8 @@ public class GraphicsInfo : MonoBehaviour
         text.text += $"Graphics Device Vendor: {SystemInfo.graphicsDeviceVendor} ";
         text.text += "\n";
         text.text += $"Graphics Device Version: {SystemInfo.graphicsDeviceVersion} ";
+        text.text += "\n";
+        text.text += $"Graphics Device Version: {SystemInfo.graphicsShaderLevel} ";
         
         // Set pixel width and height to same as canvas
         textTransform = textObject.GetComponent<RectTransform>();
